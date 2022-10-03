@@ -55,10 +55,12 @@ header > a{
     align-items: center;
 }
 #apps:hover{
-    background-color: rgba(60,64,67,0.8);
+    background-color: rgba(60,64,67,0.2);
     
 }
 #sign-in{
+    width: 96px;
+    height: 36px;
     margin-left: 8px;
     margin-right: 8px;
     color: white;
@@ -69,7 +71,7 @@ header > a{
     font-weight: 500px;
     border: 1px solid transparent;
     border-radius: 4px;
-    min-width: 96px;
+    /* min-width: 96px; */
 
 }
 #sign-in:hover{
@@ -85,4 +87,116 @@ header > a{
     background-color:  #a15fc7;
     box-shadow: 0 1px 3px 1px rgb(66 64 67 / 15%), 0 1px 2px 0 rgb(60 64 67 / 30%);
 }
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#logo{
+    /* padding-top: 190px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* padding-bottom: 20px; */
+    height: calc(100vh - 560px );
+    min-height: 150px;
+    max-width: 290px;
+}
+#search{
+    width: auto;
+    height: 44px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    margin: auto;
+    max-width: 584px;
 
+}
+#search-wrapper{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 8px 0px 14px;
+    width: 582px;
+    height: 44px;
+    /* justify-content: center; */
+}
+#search-wrapper div:first-child{
+    width: 20px;
+    height: 26px;
+    margin: 9px 0;
+}
+#search-wrapper div:first-child svg{
+    width: 20px;
+    height: 20px;
+    fill: #dfe1e5 ;
+}
+#search-wrapper div:nth-child(2){
+    width: 483px;
+    height: 39px;
+}
+#search-wrapper div:nth-child(2) input{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,0.87);
+    outline: none;
+    flex: 100%;
+    width: auto;
+    max-width: 483px;
+    height: 34px;
+    font-size: 16px;
+    cursor: text;
+}
+#search-wrapper div:nth-child(2) input:hover{
+    box-shadow: 0, 1px, 6px rgb(32, 33, blue);
+}
+#search-wrapper div:last-child{
+    width: 40px;
+    height: 44px;
+    padding: 0 8px;
+}
+#search-wrapper div:last-child svg{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+#button{
+    padding-top: 18px;
+    text-align: center;
+}
+
+#button button{
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    font-size: 14px;
+    color: #3c4043;
+    background-color: #f8f9fa;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid #f8f9fa;
+    min-width: 54px;
+    border-radius: 4px;
+    height: 36px;
+}
+#button button:hover{
+    box-shadow: 0 1px 1px rgb(0 0 );
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+#button button:focus{
+    border: 1px solid #4285f4;
+    outline: none;
+}
+
+
+#lang{
+    display: block;
+    margin-top: 76px;
+    font-size: 13px;
+}
+#lang a{
+    padding: 0 3px;
+}
