@@ -200,3 +200,37 @@ main{
 #lang a{
     padding: 0 3px;
 }
+/* footer */
+footer{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#country{
+    padding: 15 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+
+}
+
+
+#nav-bar{
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#nav-bar div{
+    display: flex;
+}
+#nav-bar div a{
+    display: block;
+    font-size: 14px;
+    padding: 15px;
+    white-space: nowrap;
+    color: #70757a;
+}
+
+

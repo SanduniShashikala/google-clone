@@ -3,3 +3,11 @@
         justify-content: center;
     }
 }
+@media all and (max-width: 1200px){
+    #nav-bar{
+        justify-content: space-evenly;
+    }
+}
+@media all and (max-width: 360px){
+    
+}
